@@ -3,6 +3,8 @@
 Templates and playbooks for using AI on substantive software projects without
 falling into the AI-defaults-to-yes trap.
 
+> **First time using this repo? Start with [`HOW-TO-USE.md`](./HOW-TO-USE.md).**
+
 ## The core lesson
 
 > AI defaults to enthusiastic implementation. It does not natively challenge
