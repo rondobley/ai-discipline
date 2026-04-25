@@ -1,5 +1,7 @@
 # AI Discipline
 
+![AI Discipline social preview](assets/ai-discipline-social.png)
+
 **Status:** v0.1 — draft methodology being refined based on real-world use. Maintenance not guaranteed.
 
 Templates and playbooks for using AI on substantive software projects without
