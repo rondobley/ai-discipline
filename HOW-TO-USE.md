@@ -64,6 +64,18 @@ cd ~/projects/your-new-project
 
 That's it for setup. Now to use it.
 
+## Sensitive data
+
+Standard caveat that applies to any AI tool: don't paste secrets, credentials,
+API keys, customer PII, payment data, medical records, legal documents, HR
+records, or proprietary client data into AI sessions.
+
+The multi-session workflow here doesn't change AI safety properties, but
+moving content between sessions (research agent → reviewer → implementer)
+creates more opportunities for accidental exposure than a single-prompt
+interaction. Redact before you paste. If uncertain whether something should
+be shared, don't share it.
+
 ## Day 1: starting a new project
 
 Walkthrough of the first hour or two of a new project.

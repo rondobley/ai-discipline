@@ -5,6 +5,28 @@
 Templates and playbooks for using AI on substantive software projects without
 falling into the AI-defaults-to-yes trap.
 
+## Who this is for
+
+Solo technical founders, senior engineers, and AI-assisted software builders
+using Claude.ai + Claude Code. This is a personal operating system openly
+shared, not a general-purpose framework.
+
+**Specifically**:
+
+- **Tooling**: Claude.ai + Claude Code. Principles transfer to other models; the UX in HOW-TO-USE.md does not.
+- **Workflow**: primarily software development. Some patterns generalize.
+- **Goal**: avoid the failure mode of months wasted on poorly-stress-tested ideas.
+- **Stance**: opinionated, Claude-specific, sharing what worked on real projects.
+
+**Who this is not for**:
+
+- Non-technical users
+- Regulated enterprise workflows (legal, medical, financial, HR, compliance)
+- Classroom AI literacy
+- Anyone looking for a tool-agnostic framework
+
+There are better resources for those use cases.
+
 > **First time using this repo? Start with [`HOW-TO-USE.md`](./HOW-TO-USE.md).**
 
 ## The core lesson
