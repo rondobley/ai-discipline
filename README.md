@@ -1,5 +1,7 @@
 # AI Discipline
 
+**Status:** v0.1 — draft methodology being refined based on real-world use. Maintenance not guaranteed.
+
 Templates and playbooks for using AI on substantive software projects without
 falling into the AI-defaults-to-yes trap.
 
