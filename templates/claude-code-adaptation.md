@@ -21,3 +21,13 @@ Canonical enforces "the reviewer never edits" *by the tool boundary* — a claud
 > The reviewer does **zero** hands-on repo work — no edits, no `git add`/`commit`, no migrations, no DB writes. **Every** repo mutation goes through an implementer subagent. The reviewer only reads, verifies, dispatches, and relays the human's gate.
 
 That single rule is why this file exists. Everything else is canonical.
+
+## Governance file location
+
+Another divergence from the base framework: the governance files (`STATUS.md`,
+`TECHDEBT.md`, `TODO.md`) live in a **local, gitignored `ai-discipline/` dir at
+each consuming repo root** and are `@import`ed into that repo's root `CLAUDE.md`
+— not committed at the repo root as the base framework prescribes. Here they
+steer the operator's own Claude Code sessions rather than encoding a shared team
+contract, so they stay out of version control and load automatically via
+`@import`.
